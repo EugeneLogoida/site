@@ -118,9 +118,22 @@ h3 {
   color: #ffffff;
 }
 
+.navbar {
+  padding-left: 40px;
+  padding-top: 35px;
+  padding-right: 31px;
+  background: transparent !important;
+  font-family: "Open Sans Bold";
+  max-width: 1520px;
+  margin: auto;
+}
+
 .header {
   height: 1024px;
   background: url("../images/background-header.jpg") no-repeat center;
+  max-width: 1520px;
+  background-size: cover;
+  margin: auto;
 }
 
 .header_center {
@@ -172,21 +185,14 @@ h3 {
   margin-right: 16px;
 }
 
-.navbar {
-  padding-left: 40px;
-  padding-top: 35px;
-  padding-right: 31px;
-  background: transparent !important;
-  font-family: "Open Sans Bold";
-  max-width: 1400px;
-  margin: auto;
-}
-
 .advantages {
   height: 1024px;
   font-family: "Open Sans Medium";
   background: url("../images/background-2.png") center no-repeat;
   padding-top: 245px;
+  max-width: 1520px;
+  background-size: cover;
+  margin: auto;
 }
 
 .advantages_block {
@@ -246,10 +252,9 @@ h3 {
 .review {
   height: 1024px;
   background: url("../images/image 22.jpg") no-repeat center;
-}
-
-.new_sm {
-  background-color: red;
+  margin: auto;
+  max-width: 1520px;
+  background-size: cover;
 }
 
 .card {
@@ -319,6 +324,9 @@ h3 {
 .curtain {
   height: 1181px;
   background: url("../images/bg-4.png") center no-repeat;
+  max-width: 1520px;
+  background-size: cover;
+  margin: auto;
 }
 
 .curtain_text_for_sm {
@@ -384,6 +392,9 @@ h3 {
   background-size: cover;
   height: 937px;
   color: #ffffff;
+  max-width: 1520px;
+  background-size: cover;
+  margin: auto;
 }
 
 .writeUs_block h3 {
@@ -526,6 +537,8 @@ h3 {
       -ms-flex-pack: center;
           justify-content: center;
   z-index: 20;
+  background-size: cover;
+  margin: auto;
 }
 
 .pop-up .close_btn {

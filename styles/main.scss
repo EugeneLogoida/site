@@ -69,12 +69,22 @@ h3 {
 .number-link:visited{
     color: #ffffff;
 }
-
+.navbar {
+    padding-left: 40px;
+    padding-top: 35px;
+    padding-right: 31px;
+    background: transparent !important;
+    font-family: "Open Sans Bold";
+    max-width: 1520px;
+    margin: auto;
+}
 
 .header {
     height: 1024px;
     background: url("../images/background-header.jpg") no-repeat center;
-
+    max-width: 1520px;
+    background-size: cover;
+    margin: auto;
     &_center {
         background: rgba(0, 0, 0, 0.45);
         backdrop-filter: blur(4px);
@@ -115,21 +125,16 @@ h3 {
     }
 }
 
-.navbar {
-    padding-left: 40px;
-    padding-top: 35px;
-    padding-right: 31px;
-    background: transparent !important;
-    font-family: "Open Sans Bold";
-    max-width: 1400px;
-    margin: auto;
-}
+
 
 .advantages {
     height: 1024px;
     font-family: "Open Sans Medium";
     background: url("../images/background-2.png") center no-repeat;
     padding-top: 245px;
+    max-width: 1520px;
+    background-size: cover;
+    margin: auto;
     &_block {
         height: 250px;
         text-align: center;
@@ -180,9 +185,9 @@ h3 {
 .review {
     height: 1024px;
     background: url("../images/image\ 22.jpg") no-repeat center;
-}
-.new_sm {
-    background-color: red;
+    margin: auto;
+    max-width: 1520px;
+    background-size: cover;
 }
 
 .card {
@@ -213,7 +218,6 @@ h3 {
 .card-body {
     padding-left: 0;
     padding-top: 0;
-    // margin-top: 28px;
     color: #ffffff;
 }
 .card-title {
@@ -237,13 +241,15 @@ h3 {
 }
 .carousel_inner {
     background: red;
-
     border-radius: 70px !important;
 }
 
 .curtain {
     height: 1181px;
     background: url("../images/bg-4.png") center no-repeat;
+    max-width: 1520px;
+    background-size: cover;
+    margin: auto;
     &_text_for_sm {
         display: none;
         font-family: "Jost Regular";
@@ -297,6 +303,9 @@ h3 {
     background-size: cover;
     height: 937px;
     color: #ffffff;
+    max-width: 1520px;
+    background-size: cover;
+    margin: auto;
     &_block {
         h3 {
             margin-bottom: 80px;
@@ -403,6 +412,8 @@ h3 {
     align-items: center;
     justify-content: center;
     z-index: 20;
+    background-size: cover;
+    margin: auto;
     .close_btn {
         position: absolute;
         top: 35px;
@@ -676,17 +687,8 @@ h3 {
             }
             &__form {
                 width: 220px;
-                // input[type="text"],
-                // input[type="phone"] {
-                //     height: 40px;
-                //     margin-bottom: 30px;
-                // }
-                // p {
-                //     margin-bottom: 50px;
-                // }
             }
         }
-
         &_third_card {
             width: 700px;
             height: 500px;
@@ -797,11 +799,6 @@ h3 {
             }
             &__form {
                 width: 220px;
-                // input[type="text"],
-                // input[type="phone"] {
-                //     height: 40px;
-                //     margin-bottom: 30px;
-                // }
                 p {
                     margin-bottom: 35px;
                 }
@@ -1223,11 +1220,6 @@ h3 {
             }
             &__form {
                 width: 220px;
-                // input[type="text"],
-                // input[type="phone"] {
-                //     height: 40px;
-                //     margin-bottom: 30px;
-                // }
                 p {
                     margin-bottom: 35px;
                 }
@@ -1349,8 +1341,6 @@ h3 {
     }
     .curtain {
         height: 1141px;
-        // background: url("../images/bg4-small.jpg") center no-repeat;
-
         &_img {
             display: flex;
             justify-content: center;
@@ -1513,11 +1503,6 @@ h3 {
             }
             &__form {
                 width: 100%;
-                // input[type="text"],
-                // input[type="phone"] {
-                //     height: 40px;
-                //     margin-bottom: 30px;
-                // }
                 p {
                     margin-bottom: 15px;
                 }
